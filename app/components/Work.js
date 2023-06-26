@@ -4,42 +4,53 @@ import Image from "next/image";
 export default function Work() {
   return (
     <div className={styles.scrollable}>
-      <h2 className={styles.heading}>websites</h2>
+      <div className={styles.headingWrapper}>
+        <h2 className={styles.heading}>websites</h2>
+      </div>
       <div className={styles.kafelki}>
         <div className={styles.flowerFinder}>
           <Image
             className={styles.pic}
             src="/websites/flower-finder.png"
-            width="600"
+            width="1000"
             height="500"
             alt=""
           />
           <p>
-            Next.js app, click a button to display places with flowers near you.
+            Next.js, data fetching, JSX, CSS, UI,{" "}
+            <a href="https://flower-finder.netlify.app/" target="_blank">
+              <span className={styles.link}>link</span>
+            </a>
           </p>
         </div>
         <div className={styles.notes}>
           <Image
             className={styles.pic}
             src="/websites/notess.png"
-            width="600"
+            width="1000"
             height="500"
             alt=""
           />
           <p>
-            Next.js app, click a button to display places with flowers near you.
+            React, JSX, CSS, UI,{" "}
+            <a href="https://1vrfkp.csb.app/" target="_blank">
+              <span className={styles.link}>link</span>
+            </a>
           </p>
         </div>
         <div className={styles.crystals}>
           <Image
             className={styles.pic}
             src="/websites/crystals-mockup.png"
-            width="600"
+            width="1000"
             height="500"
             alt=""
           />
           <p>
-            Next.js app, click a button to display places with flowers near you.
+            Three.js, HTML, CSS, Blender,{" "}
+            <a href="https://crystalssss.netlify.app/" target="_blank">
+              <span className={styles.link}>link</span>
+            </a>
           </p>
         </div>
       </div>

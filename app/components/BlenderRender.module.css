@@ -17,13 +17,18 @@
 }
 
 .headingWrapper {
-  display: flex;
-  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid black;
 }
 .kafelki {
+  background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .pic {
   width: 100%;
+  height: auto;
 }

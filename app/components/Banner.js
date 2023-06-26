@@ -5,8 +5,7 @@ export default function Banner() {
     <>
       <h1 className={styles.marquee}>
         <span>
-          🚂 //// Weronika Kmiec, frontend developer unearthing
-          the in-between of virtual and real //// JavaScript, React, Next.js,
+          🚂 //// Weronika Kmiec, web developer & 3D artist //// JavaScript, React, Next.js,
           Three.js, HTML, CSS, Blender, Figma //// Contact:{" "}
           <a className="link" href="mailto:wercche@gmail.com">
             wercche@gmail.com

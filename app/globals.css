@@ -17,12 +17,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-family: "authentic_sans90", sans-serif;
   user-select: none;
 }
 
 body {
+  overflow: hidden;
   color: var(--text-color);
   animation: pop 2s ease-in;
   height: 100vh;
@@ -54,6 +54,12 @@ a:active {
 p > a:hover {
   font-style: italic;
   cursor: pointer;
+}
+
+@media (max-width: 701px) {
+  body {
+    overflow-y: visible;
+  }
 }
 
 @keyframes pop {

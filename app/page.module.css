@@ -9,7 +9,15 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (max-width: 701px) {
+  .grid {
+    background-color: black;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    overflow-y: scroll;
+    gap: 20px;
+    height: 100%;
+  }
 }
 
 @keyframes rotate {

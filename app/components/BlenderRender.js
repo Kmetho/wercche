@@ -5,8 +5,7 @@ export default function BlenderRender() {
   return (
     <div className={styles.scrollable}>
       <div className={styles.headingWrapper}>
-        <h2 className={styles.heading}>3D illustrations</h2>
-        <h2 className={styles.heading}>motion graphics</h2>
+        <h2 className={styles.heading}>blender renders</h2>
       </div>
       <div className={styles.kafelki}>
         <Image
@@ -46,21 +45,7 @@ export default function BlenderRender() {
         />
         <Image
           className={styles.pic}
-          src="/3D illustrations/GEO9.png"
-          width="500"
-          height="500"
-          alt=""
-        />
-        <Image
-          className={styles.pic}
           src="/3D illustrations/motylek12.png"
-          width="500"
-          height="500"
-          alt=""
-        />
-        <Image
-          className={styles.pic}
-          src="/3D illustrations/crystals1.png"
           width="500"
           height="500"
           alt=""
