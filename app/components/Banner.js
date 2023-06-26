@@ -21,13 +21,6 @@ export default function Banner() {
           ////{" "}
         </span>
       </h1>
-      {/* <h1 className={styles.marquee + " " + styles.marquee2}>
-        <span>
-          Weronika Kmiec, an autodidact frontend developer unearthing the
-          in-between of virtual and real // JavaScript, React, Next.js, Three.js,
-          HTML, CSS, Blender, Figma //
-        </span>
-      </h1> */}
     </>
   );
 }

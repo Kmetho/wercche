@@ -10,7 +10,6 @@ export default function RootLayout({ children }) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <link rel="icon" href="./images/smile.ico" />
-        <link rel="stylesheet" href="../public/fonts/fonts.css" />
         <title>𝗪𝗲𝗿𝗼𝗻𝗶𝗸𝗮 𝗞𝗺𝗶𝗲𝗰 creating for the world wide web</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
