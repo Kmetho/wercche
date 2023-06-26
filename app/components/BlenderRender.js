@@ -52,6 +52,13 @@ export default function BlenderRender() {
         />
         <Image
           className={styles.pic}
+          src="/3D illustrations/motylek9.png"
+          width="500"
+          height="500"
+          alt=""
+        />
+        <Image
+          className={styles.pic}
           src="/3D illustrations/crystals2.png"
           width="500"
           height="500"
