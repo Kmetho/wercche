@@ -5,8 +5,8 @@ export default function Banner() {
     <>
       <h1 className={styles.marquee}>
         <span>
-          🚂 //// Weronika Kmiec, web developer & 3D artist //// JavaScript, React, Next.js,
-          Three.js, HTML, CSS, Blender, Figma //// Contact:{" "}
+          🚂 //// Weronika Kmiec, web developer & 3D artist //// JavaScript,
+          React, Next.js, Three.js, HTML, CSS, Blender, Figma //// Contact:{" "}
           <a className="link" href="mailto:wercche@gmail.com">
             wercche@gmail.com
           </a>{" "}
@@ -17,8 +17,7 @@ export default function Banner() {
             href="https://www.instagram.com/wercche/"
           >
             instagram
-          </a>{" "}
-          ////{" "}
+          </a>
         </span>
       </h1>
     </>
