@@ -52,7 +52,7 @@ export default function BlenderRender() {
         />
         <Image
           className={styles.pic}
-          src="https://64.media.tumblr.com/783c27e094f2b3bfad5d8c295605e384/a6e65d7ac2349e47-87/s500x750/e069a33ea9cf5734135465dabe21fbdfcbc2431f.gifv"
+          src="https://64.media.tumblr.com/2f9decbc2f767f107856169c2fe1ef34/01e53a2c6154ed1c-9a/s2048x3072/62c9bbac99d6e5fe3e4a6608ca4920a9fde5520c.pnj"
           width="500"
           height="500"
           alt=""
