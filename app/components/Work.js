@@ -53,6 +53,21 @@ export default function Work() {
             </a>
           </p>
         </div>
+        <div className={styles.paulina}>
+          <Image
+            className={styles.pic}
+            src="/websites/paulina.png"
+            width="1000"
+            height="600"
+            alt=""
+          />
+          <p>
+            HTML, CSS, working with the designer,{" "}
+            <a href="https://kmetho.github.io/paulinarams/" target="_blank">
+              <span className={styles.link}>link</span>
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
