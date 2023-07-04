@@ -10,6 +10,13 @@ export default function BlenderRender() {
       <div className={styles.kafelki}>
         <Image
           className={styles.pic}
+          src="https://64.media.tumblr.com/ac435fe98f81407c58fe1cea2b6be1d0/6728275daf890aea-df/s2048x3072/0a4947b9dcc99e37500091f3c6781745c511ccd6.pnj"
+          width="500"
+          height="500"
+          alt=""
+        />
+        <Image
+          className={styles.pic}
           src="https://64.media.tumblr.com/1f4af273a436a558e2b20ad265168358/45a8811a39fe55ea-d6/s1280x1920/e5f872e132a0cf25a7f9060d66f2e96977aedc5e.png"
           width="500"
           height="500"
