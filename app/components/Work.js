@@ -63,7 +63,7 @@ export default function Work() {
           />
           <p>
             HTML, CSS, working with the designer,{" "}
-            <a href="https://kmetho.github.io/paulinarams/" target="_blank">
+            <a href="https://paulinarams.com/" target="_blank">
               <span className={styles.link}>link</span>
             </a>
           </p>
