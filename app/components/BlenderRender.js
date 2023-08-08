@@ -8,7 +8,14 @@ export default function BlenderRender() {
         <h2 className={styles.heading}>blender renders</h2>
       </div>
       <div className={styles.kafelki}>
-      <Image
+        <Image
+          className={styles.pic}
+          src="https://64.media.tumblr.com/4a1008e73eb7f596f4bd46890dfb9ded/12e106bdbbce1104-64/s2048x3072/c86fd263f941593649460bfdb235f64ffd4c8ca2.pnj"
+          width="500"
+          height="500"
+          alt=""
+        />
+        <Image
           className={styles.pic}
           src="https://64.media.tumblr.com/0e17e172dddefab765787bffade03146/90ddb00def9dfeb5-a4/s2048x3072/627395f504ffdd6f2e02f1da1fb8b87cb9e5289f.pnj"
           width="500"
